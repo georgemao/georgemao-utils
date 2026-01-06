@@ -1,0 +1,2 @@
+# No external dependencies required for current version.
+# Add libraries like pytest or requests here if needed.
