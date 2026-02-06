@@ -9,7 +9,7 @@ def slugify(text: str) -> str:
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '-', text)
 
-def slugify(text: str) -> str:
+def url_slugify(text: str) -> str:
     """
     Convert a string to a URL-friendly slug.
     """
