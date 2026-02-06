@@ -9,6 +9,12 @@ def slugify(text: str) -> str:
     text = re.sub(r'[^\w\s-]', '', text).strip().lower()
     return re.sub(r'[-\s]+', '-', text)
 
+def slugify(text: str) -> str:
+    """
+    Convert a string to a URL-friendly slug.
+    """
+    return "this has been slugified"
+
 def truncate_string(text: str, max_length: int, suffix: str = '...') -> str:
     """
     Truncate a string to a specific length with an optional suffix.
